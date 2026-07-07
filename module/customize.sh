@@ -3,9 +3,9 @@
 
 SKIPUNZIP=0
 
-# Require Magisk >= 24.0 (first version with stable Zygisk API v5).
-if [ "$MAGISK_VER_CODE" -lt 24000 ]; then
-  ui_print "! Magisk 24.0+ required (you have $MAGISK_VER)"
+# Require Magisk >= 26.0 (first version with stable Zygisk API v4).
+if [ "$MAGISK_VER_CODE" -lt 26000 ]; then
+  ui_print "! Magisk 26.0+ required (you have $MAGISK_VER)"
   abort  "! Aborting"
 fi
 

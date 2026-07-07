@@ -184,7 +184,7 @@ If `audit.py` reports a `LEAK`:
 |---|---|
 | arm64-v8a | Pre-built for arm64. Other ABIs: rebuild from source. |
 | Android >= 10 | App Zygote (the detection surface) was added in Android 10. |
-| Magisk >= 24 + Zygisk | Module requires Zygisk API v5. KitsuneMask also works. |
+| Magisk >= 26 + Zygisk | Module requires Zygisk API v4. KitsuneMask also works. |
 
 ## License
 
